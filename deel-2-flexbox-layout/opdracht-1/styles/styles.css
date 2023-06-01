@@ -1,1 +1,25 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 1054px;
+}
+header {
+     flex-basis: 100px;
+ }
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+}
+article {
+    flex-basis: 90%;
+}
+aside {
+    flex-basis: 30%;
+}
+nav {
+    flex-basis: 30%;
+}
+footer {
+    flex-basis: 100px;
+}
